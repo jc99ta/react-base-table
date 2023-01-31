@@ -20,7 +20,7 @@
           "@babel/preset-env",
           {
             "modules": false,
-            "loose": true,
+            "loose": false
           },
         ],
       ],

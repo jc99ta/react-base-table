@@ -13,6 +13,7 @@ yarn-error.log
 yarn-error.log.*
 
 styles.css
+styles.css.map
 es/
 lib/
 coverage/
