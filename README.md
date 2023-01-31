@@ -1,4 +1,4 @@
-# react-base-table
+# @jc99ta/react-base-table
 
 BaseTable is a react table component to display large datasets with high performance and flexibility
 
@@ -11,21 +11,21 @@ BaseTable is a react table component to display large datasets with high perform
 
 ```bash
 # npm
-npm install react-base-table --save
+npm install @jc99ta/react-base-table --save
 
 # yarn
-yarn add react-base-table
+yarn add @jc99ta/react-base-table
 ```
 
 ## Usage
 
 ```js
-import BaseTable, { Column } from 'react-base-table'
+import BaseTable, { Column } from '@jc99ta/react-base-table'
 import 'react-base-table/styles.css'
 // Important: if you fail to import react-base-table/styles.css then 
 // BaseTable will not render as advertised in the included examples.
 // For advanced styling see link below:
-// https://github.com/Autodesk/react-base-table#advance
+// https://github.com/jc99ta/react-base-table#advance
  ...
 <BaseTable data={data} width={600} height={400}>
   <Column key="col0" dataKey="col0" width={100} />
