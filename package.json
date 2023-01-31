@@ -1,7 +1,7 @@
 {
   "name": "@jc99ta/react-base-table",
-  "version": "1.13.3",
-  "description": "a react table component to display large data set with high performance and flexibility",
+  "version": "1.0.0",
+  "description": "a react table component to display large data set with high performance and flexibility, forked from Autodesk/react-base-table",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
