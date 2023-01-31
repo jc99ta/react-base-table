@@ -18,19 +18,19 @@
     "url": "https://github.com/Autodesk/react-base-table.git"
   },
   "scripts": {
-    "start": "cd website && npm start",
-    "deploy": "cd website && npm run deploy",
+    "start": "cd website && yarn start",
+    "deploy": "cd website && yarn deploy",
     "lint": "eslint ./src/**/*.js",
     "clean": "rimraf lib es styles.css",
     "build:js": "cross-env NODE_ENV=production babel src -d lib --ignore '**/*.spec.js','__snapshots__' --copy-files --source-maps",
     "build:es": "cross-env BABEL_ENV=es NODE_ENV=production babel src -d es --ignore '**/*.spec.js','__snapshots__' --copy-files --source-maps",
     "build:css": "sass src/_BaseTable.scss ./styles.css",
-    "build": "npm run build:js && npm run build:es && npm run build:css",
+    "build": "yarn build:js && yarn build:es && yarn build:css",
     "format": "prettier --write 'src/**/*.{js,scss}'",
-    "prebuild": "npm run clean",
+    "prebuild": "yarn clean",
     "precommit": "lint-staged",
-    "prepush": "npm run test",
-    "prepublish": "npm run build && npm run test",
+    "prepush": "yarn test",
+    "prepublish": "yarn build && yarn test",
     "test": "jest"
   },
   "lint-staged": {
