@@ -15,7 +15,7 @@ const TableHeaderRow = ({
   headerRenderer,
   expandColumnKey,
   expandIcon: ExpandIcon,
-  tagName: Tag,
+  tagName: Tag = 'div',
   ...rest
 }) => {
   let cells = columns.map((column, columnIndex) =>
@@ -37,10 +37,6 @@ const TableHeaderRow = ({
       {cells}
     </Tag>
   );
-};
-
-TableHeaderRow.defaultProps = {
-  tagName: 'div',
 };
 
 TableHeaderRow.propTypes = {
