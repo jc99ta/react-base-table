@@ -1,6 +1,6 @@
 {
   "name": "@jc99ta/react-base-table",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a react table component to display large data set with high performance and flexibility, forked from Autodesk/react-base-table",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -49,8 +49,8 @@
     "classnames": "^2.3.2",
     "memoize-one": "^6.0.0",
     "prop-types": "^15.8.1",
-    "react-virtualized-auto-sizer": "^1.0.7",
-    "react-window": "^1.8.8"
+    "react-virtualized-auto-sizer": "^1.0.24",
+    "react-window": "^1.8.10"
   },
   "peerDependencies": {
     "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
